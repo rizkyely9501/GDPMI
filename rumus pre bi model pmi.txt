@@ -1,0 +1,13 @@
+=IF(G2="",IF(ISNUMBER(SEARCH(P$3,F2)),"Obat dan Suplemen",""),"")
+
+=IF(C2="a",IF(ISNUMBER(SEARCH(U$3,A2)),"Paket Bantuan","a"),IF(C2="Alat Pelindung Diri","Alat Pelindung Diri",
+IF(C2="Obat dan Suplemen","Obat dan Suplemen",IF(C2="Kebutuhan Medis","Kebutuhan Medis",IF(C2="Paket Bantuan","Paket Bantuan","a")))))
+
+
+=IF(C1="a",IF(ISNUMBER(SEARCH(Q$11,B1)),"Minuman","a"),IF(C1="Alat Pelindung Diri","Alat Pelindung Diri",
+IF(C1="Obat dan Suplemen","Obat dan Suplemen",IF(C1="Kebutuhan Medis","Kebutuhan Medis",IF(C1="Paket Bantuan","Paket Bantuan",
+IF(C1="MCK","MCK",IF(C1="Minuman","Minuman","a")))))))
+
+
+=IF(H1="a",IF(ISNUMBER(SEARCH(S$8,A1)),"Kebutuhan Medis","a"),IF(H1="Alat Pelindung Diri","Alat Pelindung Diri",
+IF(H1="Obat dan Suplemen","Obat dan Suplemen",IF(H1="Kebutuhan Medis","Kebutuhan Medis","a"))))
